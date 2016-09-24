@@ -12,7 +12,7 @@ or
 
 Just download the source file from Github
 copy and paste into your localhost folder
-------------------------------------------
+
 ## Edit .htaccess file
 Now open your .htaccess file on root folder and change all 'framework-f' words with your directory name 
 
