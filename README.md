@@ -2,7 +2,7 @@
 Yet Another Framework
 
 # Requirements
-PHP 5.5 and up
+PHP 5.3 and up
 
 # Installation
 Create a directory in your localhost folder and clone this project
