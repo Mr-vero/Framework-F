@@ -1,0 +1,6 @@
+{
+  "description" : "My great Framework F application",
+  "require": {
+    "php": ">=5.5"
+  }
+}
