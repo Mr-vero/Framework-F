@@ -12,3 +12,5 @@ or
 
 Just download the source file from Github
 copy and paste into your localhost folder
+
+<code><?php echo "Hello Dudes" ?></code>
