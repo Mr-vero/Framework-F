@@ -5,7 +5,7 @@
 *  Last Modified: September 17, 2016
 *  Path : config/default.php
 --------------------------------------------------------------*/
-	$url = "http://localhost/f/"; //Change this link
+	$url = "http://localhost/framework-f/"; //Change this link
 	//$lang = "english"; //Default Language (static);
 	$lang = $lang ? $lang = $lang : $lang = "english"; //Dynamic Language; 
 /*-------------------------------------------------------------
