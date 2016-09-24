@@ -15,20 +15,20 @@
    RewriteRule ^ - [L]
    
    #Rewrite rule
-   RewriteRule ^([^/]*)/([^/]*)/([^/]*)$ /f/index.php?p=$1&c=$2&a=$3 [L]
-   RewriteRule ^([^/]*)/([^/]*)/([^/]*)/([^/]*)$ /f/index.php?p=$1&c=$2&a=$3&lang=$4 [L]
-   RewriteRule ^400$ /f/errors/400.html [L]
-   RewriteRule ^401$ /f/errors/401.html [L]
-   RewriteRule ^403$ /f/errors/403.html [L]
-   RewriteRule ^404$ /f/errors/404.html [L]
-   RewriteRule ^500$ /f/errors/500.html [L]
+   RewriteRule ^([^/]*)/([^/]*)/([^/]*)$ /framework-f/index.php?p=$1&c=$2&a=$3 [L]
+   RewriteRule ^([^/]*)/([^/]*)/([^/]*)/([^/]*)$ /framework-f/index.php?p=$1&c=$2&a=$3&lang=$4 [L]
+   RewriteRule ^400$ /framework-f/errors/400.html [L]
+   RewriteRule ^401$ /framework-f/errors/401.html [L]
+   RewriteRule ^403$ /framework-f/errors/403.html [L]
+   RewriteRule ^404$ /framework-f/errors/404.html [L]
+   RewriteRule ^500$ /framework-f/errors/500.html [L]
 
    #Serve custom error pages
-   ErrorDocument 400 /errors/400
-   ErrorDocument 401 /errors/401
-   ErrorDocument 403 http://localhost/f/403
-   ErrorDocument 404 http://localhost/f/404
-   ErrorDocument 500 /errors/500
+   ErrorDocument 400 http://localhost/framework-f/400
+   ErrorDocument 401 http://localhost/framework-f/401
+   ErrorDocument 403 http://localhost/framework-f/403
+   ErrorDocument 404 http://localhost/framework-f/404
+   ErrorDocument 500 http://localhost/framework-f/500
 
 
    # secure htaccess file
