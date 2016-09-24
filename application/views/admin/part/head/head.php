@@ -1,6 +1,6 @@
 <html>
     <head>
-        <link href='//fonts.googleapis.com/css?family=Cinzel' rel='stylesheet' type='text/css'>
+        <link href='//fonts.googleapis.com/css?family=Henny+Penny' rel='stylesheet' type='text/css'>
 
         <style>
             body {
@@ -11,7 +11,7 @@
                 color: #B0BEC5;
                 display: table;
                 font-weight: 50;
-                font-family: 'Cinzel', serif;
+                font-family: 'Henny Penny', serif;
                 background: rgb(42,42,42);
             }
 
