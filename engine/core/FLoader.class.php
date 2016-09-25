@@ -52,7 +52,7 @@ class FLoader{
 
     public function publicLoader($folder,$sub=NULL){
         //Grab all data from public direcrory and listing
-        foreach(glob('public/'.$folder.'/'.$sub.'/*.*') as $filename){
+        foreach(array_reverse(glob('public/'.$folder.'/'.$sub.'/*.*')) as $filename){
             if ($folder == 'css') {
                 echo '<link rel="stylesheet" href="'.BASE_URL.$filename.'">'.PHP_EOL;
             }elseif($folder == 'js'){
