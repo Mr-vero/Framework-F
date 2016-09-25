@@ -1,6 +1,6 @@
 {
   "name" : "f/framework-f",
-  "type": "framework",
+  "type": "project",
   "description": "Framework F Yet Another Framework",
   "keywords": ["framework","php framework","f framework"],
   "homepage": "https://github.com/Mr-vero/Framework-F",
