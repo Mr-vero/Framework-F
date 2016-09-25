@@ -1,5 +1,5 @@
 {
-  "name" : "Framework-F"
+  "name" : "Framework-F",
   "type": "framework",
   "description": "Framework F Yet Another Framework",
   "keywords": ["log","logging"],
