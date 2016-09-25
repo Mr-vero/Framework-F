@@ -2,7 +2,8 @@
 /*
 *  Author :  Irvan
 *  Version : 0.0.1
-*  Last Modified: September 17, 2016
+*  Created on : September 17, 2016
+*  Last Modified: September 25, 2016
 *  Path : framework/core/Floader.php
 */
 class FLoader{
@@ -35,6 +36,28 @@ class FLoader{
             return $_SESSION[$title];
         }else{
             return "No Session";
+        }
+    }
+    
+     public function publicPush($folder=NULL,$sub=NULL){
+        //Ceking the folder and subfolder
+        $folder = NULL ? $folder = NULL : $folder = $folder;
+        $folder = NULL ? $folder = NULL : $folder = $folder;
+        if ($folder !== NULL && $sub == NULL) {
+            $this->publicLoader($folder);
+        }elseif ($folder !== NULL && $sub !== NULL){
+            $this->publicLoader($folder,$sub);
+        }
+    }
+
+    public function publicLoader($folder,$sub=NULL){
+        //Grab all data from public direcrory and listing
+        foreach(glob('public/'.$folder.'/'.$sub.'/*.*') as $filename){
+            if ($folder == 'css') {
+                echo '<link rel="stylesheet" href="'.BASE_URL.$filename.'">'.PHP_EOL;
+            }elseif($folder == 'js'){
+                echo '<script src="'.BASE_URL.$filename.'"></script>'.PHP_EOL;
+            }
         }
     }
 }
