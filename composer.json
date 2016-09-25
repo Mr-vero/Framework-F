@@ -1,6 +1,19 @@
 {
-  "description" : "My great Framework F application",
+  "name" : "Framework-F"
+  "type": "framework",
+  "description": "Framework F Yet Another Framework",
+  "keywords": ["log","logging"],
+  "homepage": "https://github.com/Mr-vero/Framework-F",
+  "license": "GPL 3.0",
+  "authors": [
+        {
+            "name": "Irvan Fahlepi",
+            "email": "mr.vero@dr.com",
+            "homepage": "http://mr-vero/github.io/Framework-F",
+            "role": "Developer"
+        }
+    ],
   "require": {
-    "php": ">=5.3"
+    "php": ">=5.3.0"
   }
 }
