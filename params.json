@@ -1,6 +1,6 @@
 {
   "name": "Framework F",
   "tagline": "Framework F - Yet Another Framework",
-  "body": "# Framework-F\r\nYet Another Framework\r\n\r\n# Requirements\r\nPHP 5.5 and up\r\n\r\n# Installation\r\nCreate a directory in your localhost folder and clone this project\r\n* git clone http://github.com/mr-vero/framework-f.git\r\n\r\nor\r\n\r\nJust download the source file from Github\r\ncopy and paste into your localhost folder\r\n",
+  "body": "# Framework-F\r\nYet Another Framework\r\n\r\n# Requirements\r\nPHP 5.3 and up\r\n\r\n# Installation\r\nCreate a directory in your localhost folder and clone this project\r\n* git clone http://github.com/mr-vero/framework-f.git\r\n\r\nor\r\n\r\nJust download the source file from Github\r\ncopy and paste into your localhost folder\r\n\r\n## Edit .htaccess file\r\nNow open your .htaccess file on root folder and change all 'framework-f' words with your directory name \r\n\r\n## Composer\r\nNow before start the party, open your command and open your root folder then type\r\n<code>Composer Install</code>\r\nif the process is success you will see a vendor folder under the public folder\r\n\r\n## Final\r\nOpen your project on your web browser http://localhost/your_directory\r\n\r\nif you see the framework f welcome message then you had succesfully installed framework f :)\r\n\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
