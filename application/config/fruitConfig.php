@@ -9,7 +9,7 @@ class Fruit_config
     
     
     // theme and language
-    public static $theme = 'bootstrap'; // can be 'default', 'bootstrap', 'minimal' or your custom. Theme of fRUID visual presentation. For using bootstrap you need to load it on your page.
+    public static $theme = 'fruit'; // can be 'default', 'bootstrap', 'minimal' or your custom. Theme of fRUID visual presentation. For using bootstrap you need to load it on your page.
     public static $language = 'en'; // sets default localization
     public static $is_rtl = false; // enables right-to-left (RTL) mode
     
