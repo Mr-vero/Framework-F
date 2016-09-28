@@ -41,6 +41,7 @@ class Fruit_config
     public static $load_jquery = true; // loads jQuery, turn it off if you already have jQuery on your page. jQuery version must be at least 1.7. If your jQuery loads in the bottom of page, you must activate $manual_load and use  Fruit::load_css() & Fruit::load_js() on your page.
     public static $load_jquery_ui = true; // jQueryUI, turn it on if you already have jQueryUI on your page (datepicker and slider widgets are mandatory).
     public static $load_jcrop = true; // disable, if your page already uses jCrop
+    public static $load_datatable = true;
     public static $jquery_no_conflict = false; // Includes jQuery.noConflict(). Use according to jQuery documentation.
     public static $manual_load = false; // Allows you to disable fruits css and js output, but you can use Fruit::load_css() & Fruit::load_js() in your code manually.
 
