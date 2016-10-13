@@ -15,6 +15,7 @@
     ],
   "require": {
     "php": ">=5.3.0",
-    "f/fruit" : "1.0.1"
+    "f/fruit" : "1.0.1",
+    "f/f-bootstrap-form" : "v4.1"
   }
 }
